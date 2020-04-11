@@ -1,14 +1,14 @@
 package com.example.comp_assignment4;
 
-import android.content.ContentValues;
-import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
+        import android.content.ContentValues;
+        import android.content.Context;
+        import android.database.Cursor;
+        import android.database.sqlite.SQLiteDatabase;
+        import android.database.sqlite.SQLiteOpenHelper;
 
 public class Dbhelper extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME = "spending.db";
-    public static final String TABLE_NAME = "Spending";
+    public static final String DATABASE_NAME = "history.db";
+    public static final String TABLE_NAME = "history";
     public static final String COL_1 = "ID";
     public static final String COL_2 = "ITEM";
     public static final String COL_3 = "DATE";
